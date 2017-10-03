@@ -1,0 +1,57 @@
+#main{
+	width: 55%;
+	height: 600px;
+	position: absolute;
+	margin-top: 5%;
+	margin-left: 22%;
+	padding-top:0px;
+	background-color: #75e090;
+	border-radius: 20px;
+
+	top: 0px;
+}
+#sub1{
+	width: 100%;
+	padding-left: 22%;	
+}
+#sub2{
+	width: 100%;	
+	padding-top: 35px;
+}
+#about_me,#about_myfamily,
+#about_myhobby{
+	width: 100px;
+	height: 100px;
+	float: left;
+	/*background-color: #15e8a3;*/
+	background-color: #75e090;
+	margin-left:30px;
+	text-align: center;
+	color: white;
+	padding-top: 20px;
+}
+#about_me.active,#about_myfamily.active,
+#about_myhobby.active{
+	background-color: #15e8a3;
+}
+.jumbotron p{
+	font-size:10px;
+}
+#about_me_info{
+	text-align: center;	
+	word-break:break-all;
+	transition: top 1s;
+}
+#about_family_info{
+	text-align: center;
+	word-break: break-all;
+}
+#about_hobby_info{
+	
+	
+	display: none;
+	height: 500px;
+}
+ul li{
+	font-size: 30px;
+}

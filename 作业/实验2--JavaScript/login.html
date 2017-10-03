@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>统一身份认证</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/my.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">	
+	<script src="js/jquery-2.1.1.min.js"></script>
+
+	<style type="text/css">
+		body{
+			background-image: url(img/bgi.jpg);
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-position: center;
+			background-size: 100% 100%;
+		}
+	</style>
+</head>
+<body>
+<div class="login">
+	<img src="img/title.png">
+	<span class="info" id="info3"></span>
+	<div class="input-group">
+		  <span class="input-group-addon" id="sizing-addon2"><span class="glyphicon glyphicon-user"></span> </span>
+		  <input type="text" class="form-control" placeholder="Username" id="username">
+	</div>
+	<span class="info" id="info1"></span>
+	<div class="input-group">
+		  <span class="input-group-addon" id="sizing-addon2"><span class="glyphicon glyphicon-lock"></span> </span>
+		  <input type="password" class="form-control" placeholder="Password" id="passwd">
+	</div>
+	<span class="info" id="info2"></span>
+<!-- 		<input type="checkbox" value="">
+ -->		<div id="checkbox" onclick="check_box()"></div>
+			<span style="padding-right: 150px;">一周内免登录</span>
+	<p>
+	<a href="#" style="padding-right: 86px">不知道密码？请点击《使用说明》</a><p><p><p>
+	<p><p>
+	<button class="btn" style="width: 100%; background-color: #1ab394;" onclick="log()">登录</button>
+	<p><p><p><p>
+	<a href="#" style="padding-right: 226px;">忘记密码？</a>
+</div>
+<script src="js/my.js"></script>
+</body>
+</html>
